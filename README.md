@@ -1,5 +1,5 @@
 # BYTE BUSTERS 
-Hola! Este repositorio esta destinado para las materias de Laboratorio 2 y Programación 2, del grupo BYTE BUSTERS, estudiantes de la Tecnicatura en Programación en la UTN Sede San Rafael.
+Hola! Este repositorio esta destinado para las materias del 3er semestre, del grupo BYTE BUSTERS, estudiantes de la Tecnicatura en Programación en la UTN Sede San Rafael.
 
 
 
