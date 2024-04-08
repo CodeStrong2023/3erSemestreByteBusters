@@ -1,4 +1,4 @@
-PARA CREAR UNA RAMA PERSONAL
+                        PARA CREAR UNA RAMA PERSONAL
 
 LUNA@DESKTOP-MPR49LC MINGW64 /c/LUNA/UTN/3erSemestreByteBusters (main)
 $ git branch Luna
@@ -9,9 +9,10 @@ $ git branch
   RamaSecundaria
 * main
 
-LUNA@DESKTOP-MPR49LC MINGW64 /c/LUNA/UTN/3erSemestreByteBusters (RamaSecundaria)
+LUNA@DESKTOP-MPR49LC MINGW64 /c/LUNA/UTN/3erSemestreByteBusters (main)
 $ git checkout Luna
 Switched to branch 'Luna'
+
 
 LUNA@DESKTOP-MPR49LC MINGW64 /c/LUNA/UTN/3erSemestreByteBusters (Luna)
 $ git push --set-upstream origin Luna
@@ -51,7 +52,8 @@ $ git checkout RamaSecundaria
 
 
                FUSIONAR RAMA PERSONAL CON LA SECUNDARIA 
-(ANTES DE EMPEZAR A TRABAJAR, HACER GIT PULL PARA TRAER LOS CAMBIOS EN LA RAMA SECUNDARIA)
+(ANTES DE EMPEZAR A TRABAJAR, HACER GIT PULL PARA TRAER LOS CAMBIOS EN LA RAMA SECUNDARIA 
+                     Y DESPUES EMPEZAR A REALIZAR CAMBIOS)
 
 LUNA@DESKTOP-MPR49LC MINGW64 /c/LUNA/UTN/3erSemestreByteBusters (RamaSecundaria)
 $ git merge Luna
