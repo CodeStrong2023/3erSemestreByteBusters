@@ -13,3 +13,4 @@ Hola! Este repositorio esta destinado para las materias del 3er semestre, del gr
 - [@dalmaponce](https://www.github.com/dalmaponce)
 - [@M-elsesser](https://www.github.com/M-elsesser)
 - [@Briandif](https://github.com/Briandif)
+- [@HernanVega753](https://github.com/HernanVega753)
