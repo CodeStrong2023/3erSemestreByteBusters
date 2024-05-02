@@ -14,7 +14,7 @@ Hola! Este repositorio esta destinado para las materias del 3er semestre, del gr
  ### * Si por distintos motivos algun miembro del grupo no puede cumplir con su cronograma de actividades programadas debera comunicarlas en el grupo de whatsapp para reacomodar las tareas designas.
  ### * Tareas de los Colaboradores y el Encargado de turno seleccionados:<br>
   1- El Colaborador debera crear una Rama Personal a partir de la RamaSecundaria o, si ya la tienen, deberan actualizarla con todos los últimos cambios de la RamaSecundaria.<br>
-  2- Trabajar de manera local en la rama personal, añadiendo la tarea asignada.<br>
+  2- El Colaborador debera trabajar de manera local en su rama personal, añadiendo la tarea asignada.<br>
   3- Una vez completa la tarea, el Colaborador debera verificar que el código funcione correctamente y enviar los cambios de su equipo local a su rama personal en GitHub.<br>
   4- Completada el paso 3, el Colaborador debera dar aviso al Encargado, quien verificara el contenido de la rama del colaborador, si todo esta en orden el Encargado la fusionara con la RamaSecundaria.<br>
   5- Una vez el encargado agrega los cambios a la RamaSecundaria debera dar aviso a un nuevo Colaborador, anteriormente seleccionado, para que este realize nuevamente los pasos 1, 2 y 3, con su tarea previamente asiganda.<br>
