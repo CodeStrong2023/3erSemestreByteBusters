@@ -12,11 +12,11 @@ chat_historia = []
 
 # Función de respuesta del bot
 def response(msg):
-    # Agrego "limistacion_pregunta" para que no se desvíe del mundial 2022.
+    # Agrego "limitacion_pregunta" para que no se desvíe del mundial 2022.
     # También agrego un ciclo for de chat_historia, para que vaya siguiendo la conversación que se va teniendo
     answer = model.generate_content(limitacion_pregunta + " ".join([item["content"] for item in chat_history]) + msg)
     chat_area.config(state="normal")
-    chat_area.insert(tk.END, "Bot: " + answer.text + "\n""\n")
+    chat_area.insert(tk.END, "Bot: " + answer.text + "\n""\n"+ "\n¿Quíeres saber algo más?"+"\n""\n")
     chat_area.config(state="disabled")
     chat_area.see(tk.END)
     # Guardo la respuesta en el rol : asistente, contenido : respuesta
