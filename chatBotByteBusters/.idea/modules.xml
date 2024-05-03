@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Tecnicatura3sem/ChatBotAi/.idea/ChatBotAi.iml" filepath="$PROJECT_DIR$/../Tecnicatura3sem/ChatBotAi/.idea/ChatBotAi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ChatBotByteBusters.iml" filepath="$PROJECT_DIR$/.idea/ChatBotByteBusters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../3erSemestreByteBusters/chatBotByteBusters/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/../3erSemestreByteBusters/chatBotByteBusters/.idea/pythonProject.iml" />
+    </modules>
+  </component>
+</project>
