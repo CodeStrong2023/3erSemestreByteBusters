@@ -1,5 +1,5 @@
 
-package Emiliano_3er_sem.Java_3er_sem.Leccion1.Mundo_pc;
+package Emiliano_3er_sem.Java_3er_sem.Leccion01.Mundo_pc;
 
 public class Raton extends DispositivoEntrada {
     private final int idRaton;
