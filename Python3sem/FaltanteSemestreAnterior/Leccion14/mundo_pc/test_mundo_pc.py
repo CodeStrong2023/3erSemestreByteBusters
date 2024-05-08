@@ -42,7 +42,7 @@ computadora7 = Computadora('Lenovo', monitor7, teclado7, raton7)
 computadoras1 = [computadora1, computadora2, computadora7, computadora4]
 
 orden1 = Orden(computadoras1)
-orden1.agregar_computadora(computadora4)
+orden1.agregar_computadora(computadora4)m "Agregado POO"
 
 print(orden1)
 
