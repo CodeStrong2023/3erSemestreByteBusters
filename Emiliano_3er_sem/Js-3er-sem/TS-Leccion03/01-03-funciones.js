@@ -43,7 +43,7 @@ let sumar = function(a = 4, b = 8){
     return a + b + arguments[2];
 }
 resultado = sumar(3,7,9,2);
-console.log(resultado);
+console.log(resultado);//
 
 
 //sumar todos los argumentos
