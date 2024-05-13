@@ -1,4 +1,4 @@
-//let autos = new Array(BMW) sintaxis vieja
+//let autos = new Array(BMW) sintaxis antigua
 const auto = ["BMW","Toyota"]
 
 //Recorrelos los elementos de los arreglos
