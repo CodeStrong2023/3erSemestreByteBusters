@@ -145,4 +145,4 @@ console.log(Persona4.nombreCompleto2.call(Persona5, "Ing.", "855389009"));
 
 //metodo Apply
 let arreglo = ["Ing", "2348892887"]
-console.log(Persona4.nombreCompleto2.apply(Persona5, arreglo));
+console.log(Persona4.nombreCompleto2.apply(Persona5, arreglo));//
