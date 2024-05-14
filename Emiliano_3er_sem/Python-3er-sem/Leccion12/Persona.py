@@ -10,6 +10,6 @@ class Persona:
         return self.edad - otro.edad
 persona1 = Persona("Amaro", 10)
 persona2 = Persona("Rodriguez", 6)
-#   persona1.__add__(persona2) sintaxis interna y automatica
+#   persona1.__add__(persona2) sintaxis interna y automatica.
 print(persona1 + persona2)
 print(persona1 - persona2)
