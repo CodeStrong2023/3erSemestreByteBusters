@@ -15,7 +15,7 @@ except Exception as e:
     print(f"Exception - Ocurrio un error: {type(e)}")
 else:
     print("No se arrojo ninguna excepcion")
-finally:#siempre se va a ejecutar
+finally:#siempre se va a ejecutar.
     print("Ejecucion del finally") 
 print(f"El resultado es: {resultado}")
 print("seguimos...")
