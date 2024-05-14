@@ -1,5 +1,5 @@
 class Persona:
-    contador_personas = 0 #Variavle de clase
+    contador_personas = 0 #Variavle de clase.
     
     @classmethod
     def generar_siguiente_valor(cls):
