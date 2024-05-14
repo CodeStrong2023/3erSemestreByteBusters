@@ -9,7 +9,7 @@ class Orden:
         self._productos = list(productos)
         
     def agregar_producto(self, producto):
-        self._productos.append(producto) #Esto es para agregar un nuevo producto
+        self._productos.append(producto) #Esto es para agregar un nuevo producto.
         
     def calcular_total(self):
         total = 0 #Variable temporal para almacenar el total temporal
