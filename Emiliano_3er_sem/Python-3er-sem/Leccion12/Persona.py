@@ -3,7 +3,7 @@ class Persona:
         self.nombre = nombre
         self.edad = edad
         
-    def __add__(self, other): #OTHER SIGNIFICA OTRO
+    def __add__(self, other): #OTHER SIGNIFICA OTRO.
         return f"{self.nombre} | {other.nombre}"
     
     def __sub__(self, otro):#SUB SIGNIFICA SUBSTRACTION (RESTA)
