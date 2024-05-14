@@ -32,3 +32,5 @@ if __name__ == "__main__":
     raton2 = Raton("HP", "USB")
     computadora2 = Computadora("HP", monitor2, tecleado2, raton2)
     print(computadora2)
+    
+    #
