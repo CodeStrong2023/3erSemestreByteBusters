@@ -46,4 +46,3 @@ def __str__(self):
 def _validar_valores(self, valor): #Metodo encapsulado
     return True if 0 < valor < 10 else False
     
-    
