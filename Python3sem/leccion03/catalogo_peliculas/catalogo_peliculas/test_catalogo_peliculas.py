@@ -1,5 +1,6 @@
+from leccion03.catalogo_peliculas.dominio.Pelicula import Pelicula
 from servicio.catalogo_peliculas import CatalogoPeliculas as cp
-from dominio.Pelicula import Pelicula
+
 
 opcion = None
 
