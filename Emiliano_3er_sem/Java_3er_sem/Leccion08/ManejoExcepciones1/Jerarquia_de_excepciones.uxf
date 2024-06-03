@@ -1,0 +1,41 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>40</x><y>0</y><w>280</w><h>90</h></coordinates><panel_attributes>- NO son checkeadas por el compilador, pero 
+si va a ver un problema en tiempo de ejecución
+
+- Excepciones que NO es obligatorio 
+controlar. Unchecked exceptions
+
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>0</y><w>270</w><h>80</h></coordinates><panel_attributes>- SI van a ser checheadas por el compilador
+
+- Excepciones que SI es obligatorio 
+controlar. Checked exceptions
+
+bg=red
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>180</y><w>100</w><h>30</h></coordinates><panel_attributes>Throwable
+
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>250</y><w>100</w><h>30</h></coordinates><panel_attributes>Error
+
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>200</y><w>160</w><h>70</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;50;140;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>250</y><w>100</w><h>30</h></coordinates><panel_attributes>Exception
+
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>200</y><w>140</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>120;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>270</y><w>160</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;50;140;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>320</y><w>100</w><h>30</h></coordinates><panel_attributes>RitimeException
+
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>270</y><w>50</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;60;30;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>330</y><w>140</w><h>30</h></coordinates><panel_attributes>InterruptedException
+
+
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>330</y><w>140</w><h>30</h></coordinates><panel_attributes>IOException
+
+
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>270</y><w>140</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>120;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>340</y><w>160</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;50;140;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>390</y><w>160</w><h>30</h></coordinates><panel_attributes>IllegalArgumentException
+
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>340</y><w>40</w><h>120</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;100;20;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>190</x><y>440</y><w>220</w><h>30</h></coordinates><panel_attributes>ArrayIndexOutOfBoundsException
+
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>460</y><w>160</w><h>30</h></coordinates><panel_attributes>NumberFormatException
+
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>410</y><w>50</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;50;30;10</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>350</y><w>90</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>70;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>450</x><y>410</y><w>140</w><h>30</h></coordinates><panel_attributes>EOFException
+
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>410</y><w>140</w><h>30</h></coordinates><panel_attributes>SocketException
+
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>580</x><y>350</y><w>80</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;60;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>360</y><w>140</w><h>30</h></coordinates><panel_attributes>FileNotFuundException
+
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>580</x><y>350</y><w>150</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;130;30</additional_attributes></element></diagram>
