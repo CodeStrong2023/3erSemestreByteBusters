@@ -1,4 +1,4 @@
-import psycopg2 #Esto es para poder conectarnos a Postgre
+import psycopg2 #Esto es para poder conectarnos a Postgre.
 
 conexion = psycopg2.connect(
     user= "postgres",
