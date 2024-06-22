@@ -20,3 +20,4 @@ while opcion != 4:
         opcion = None
     else:
         print("Salimos del programa")
+    
