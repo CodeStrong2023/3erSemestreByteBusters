@@ -6,7 +6,7 @@ class Persona:
     def __add__(self, other): #OTHER SIGNIFICA OTRO.
         return f"{self.nombre} | {other.nombre}"
     
-    def __sub__(self, otro):#SUB SIGNIFICA SUBSTRACTION (RESTA)
+    def __sub__(self, otro):#SUB SIGNIFICA SUBSTRACTION (RESTA).
         return self.edad - otro.edad
 persona1 = Persona("Amaro", 10)
 persona2 = Persona("Rodriguez", 6)
