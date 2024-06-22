@@ -12,7 +12,7 @@ class Orden:
         self._productos.append(producto) #Esto es para agregar un nuevo producto.
         
     def calcular_total(self):
-        total = 0 #Variable temporal para almacenar el total temporal
+        total = 0 #Variable temporal para almacenar el total temporal.
         for producto in self._productos:
             total += producto.precio
         return total
