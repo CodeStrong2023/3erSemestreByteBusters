@@ -90,14 +90,18 @@ class Login:
                         with conexion.cursor() as cursor:
                             query = "SELECT contrasenia FROM usuarios WHERE usuario = %s"
                             cursor.execute(query, (usuario,))
-                            resultado = cursor.fetchone()
+                            #resultado = cursor.fetchone()  DESCOMENTAR
+                            resultado = 'a'
 
                             if resultado:
                                 #  resultado[0] es el hash creado en la base de datos. encode('utg-8') Convierte este
                                 #  hash en una secuencia de bytes utilizando la codificación UTF-8
-                                contraseña_encriptada = resultado[0].encode('utf-8')
+                                #contraseña_encriptada = resultado[0].encode('utf-8') DESCOMENTAR
                                 #  la funcion bcryptpw recupera la salt del hash guardado en contraseña_encriptada
-                                if bcrypt.checkpw(contraseña.encode('utf-8'), contraseña_encriptada):
+
+                                #if bcrypt.checkpw(contraseña.encode('utf-8'), contraseña_encriptada): DESCOMENTAR
+                                if contraseña == 'a':  # BORRAR LUEGO
+                                    # DESCOMENTAR LINEAS 93, 99, 102 Y BORRAR LINEAS 103 Y 94
                                     self.error_label.config(text="Inicio de sesión exitoso", fg="green")
                                     print("Inicio de sesión exitoso para:", usuario)
 
