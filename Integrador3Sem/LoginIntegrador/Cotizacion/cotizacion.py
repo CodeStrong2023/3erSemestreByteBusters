@@ -1,4 +1,4 @@
-import Cotizacion.main
+import LoginIntegrador.Menu.main
 
 
 def ir_cotizacion():
@@ -213,7 +213,7 @@ Seleccione el tamaño de la construcción:
                     print("Elige una opción válida.")
 
             elif tamanio == 4:
-                Cotizacion.main.ir_main()
+                LoginIntegrador.Menu.main.ir_main()
             else:
                 print("Elige una opción válida.")
 
@@ -272,7 +272,7 @@ Seleccione el tamaño de la construcción:
                 if fin == 1:
                     break
                 elif fin == 2:
-                    Cotizacion.main.ir_main()
+                    LoginIntegrador.Menu.main.ir_main()
                 else:
                     print("Elige una opción válida.")
 

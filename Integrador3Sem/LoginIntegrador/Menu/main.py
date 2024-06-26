@@ -1,4 +1,5 @@
-import Cotizacion.cotizacion
+import LoginIntegrador.Cotizacion.cotizacion
+#import LoginIntegrador.Contactanos.Contactanos
 
 
 def ir_main():
@@ -8,7 +9,7 @@ def ir_main():
         ++   Bienvenido a Constructora Byte-Busters   ++
 Seleccione el tamaño de la construcción:
 (1) - 1
-(2) - 2
+(2) - Contáctanos
 (3) - Cotización
 (4) - Salir
                 """))
@@ -16,8 +17,9 @@ Seleccione el tamaño de la construcción:
                 print('Has seleccionado la opción 1')
             elif opcion == 2:
                 print('Has seleccionado la opción 2')
+                #LoginIntegrador.Contactanos.Contactanos.contactanos()
             elif opcion == 3:
-                Cotizacion.cotizacion.ir_cotizacion()
+                LoginIntegrador.Cotizacion.cotizacion.ir_cotizacion()
             elif opcion == 4:
                 print('Saliendo del programa...')
                 break

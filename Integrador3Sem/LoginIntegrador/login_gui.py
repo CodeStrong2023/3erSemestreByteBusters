@@ -2,7 +2,8 @@ import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
 from registro_usuarios import RegistroUsuario  # Importa la clase RegistroUsuario
-from Cotizacion.main import ir_main
+from LoginIntegrador.Menu.main import ir_main
+
 
 class Login:
     def __init__(self, root):
@@ -78,7 +79,7 @@ class Login:
         contraseña = self.entries['Contraseña'].get()
 
         if usuario and contraseña:
-            valido = True # ------------BORRAR LÍNEA PARA COMPROBACIÓN CORRECTA, AHORA VA A ENTRAR SIEMPRE--------------------
+            valido = True  # ------------BORRAR LÍNEA PARA COMPROBACIÓN CORRECTA, AHORA VA A ENTRAR SIEMPRE--------------------
             #valido, mensaje = validar_ingresos(usuario, contraseña) #--------------------DESCOMENTAR---------------
             #self.error_label.config(text=mensaje, fg="green" if valido else "red") #--------------------DESCOMENTAR-------------------
             if valido:
