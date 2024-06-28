@@ -1,4 +1,5 @@
 import LoginIntegrador.Cotizacion.cotizacion
+import LoginIntegrador.Tipologia.tipologia
 #import LoginIntegrador.Contactanos.Contactanos
 
 
@@ -11,7 +12,8 @@ Seleccione el tamaño de la construcción:
 (1) - 1
 (2) - Contáctanos
 (3) - Cotización
-(4) - Salir
+(4) - Tipologia
+(5) - Salir
                 """))
             if opcion == 1:
                 print('Has seleccionado la opción 1')
@@ -21,6 +23,9 @@ Seleccione el tamaño de la construcción:
             elif opcion == 3:
                 LoginIntegrador.Cotizacion.cotizacion.ir_cotizacion()
             elif opcion == 4:
+                appTipologia = LoginIntegrador.Tipologia.tipologia.Tipologia()
+                appTipologia.start()
+            elif opcion == 5:
                 print('Saliendo del programa...')
                 break
             else:
