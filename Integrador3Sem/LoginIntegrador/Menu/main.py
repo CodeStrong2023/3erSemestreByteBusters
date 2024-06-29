@@ -42,7 +42,7 @@ def cargar_imagen(image_path, width, height):
 def ir_main():
     global ventana, photo
     ventana = tk.Tk()
-    ventana.title("Menú ByteBuster")
+    ventana.title("Constructora BYTEBUSTERS | Menú")
 
     # Ruta de la imagen y dimensiones deseadas
     script_dir = os.path.dirname(os.path.abspath(__file__))  # Ruta absoluta del script
@@ -52,7 +52,7 @@ def ir_main():
     # Imprimir la ruta para verificar
     print(f"Ruta completa de la imagen: {image_path}")
 
-    imagen_ancho = 200
+    imagen_ancho = 250
     imagen_alto = 200
 
     # Verificar si el archivo de imagen existe
