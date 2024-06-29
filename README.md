@@ -8,6 +8,8 @@
 
 Saludos desde el grupo ByteBusters. El presente repositorio es una práctica de método SCRUM.
 
+2024
+
 A la par de ejercitación de los lenguajes de PYTHON, JAVA y JAVASCRIPT. También habrá algo de HTML, CSS, Uso de base de datos como MySql, PostgreSQL y Mongo y otras tecnologías.
 
 En resumen, es una pequeña muestra de lo aprendido en el Tercer Semestre de la Tecnicatura Universitaria en Programación de la UTN.
