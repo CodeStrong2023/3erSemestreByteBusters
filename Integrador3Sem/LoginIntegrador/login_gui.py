@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
+from Menu.main import ir_main
 from registro_usuarios import RegistroUsuario  # Importa la clase RegistroUsuario
-from LoginIntegrador.Menu.main import ir_main
 
 
 class Login:
@@ -56,7 +56,7 @@ class Login:
     def cargar_imagen(self, ruta_imagen):
         try:
             imagen = Image.open(ruta_imagen)
-            imagen = imagen.resize((200, 200), Image.LANCZOS)  # Ajusta el tamaño de la imagen
+            imagen = imagen.resize((200, 200), Image.Resampling.LANCZOS)  # Ajusta el tamaño de la imagen
             self.imagen_tk = ImageTk.PhotoImage(imagen)
             self.label_imagen = tk.Label(self.frame, image=self.imagen_tk)
             self.label_imagen.grid(row=0, column=0, padx=10, pady=10)
@@ -91,7 +91,6 @@ class Login:
     def limpiar_campos(self):
         for entry in self.entries.values():
             entry.delete(0, 'end')
-
 
 if __name__ == "__main__":
     root = tk.Tk()
