@@ -4,7 +4,6 @@ from PIL import Image, ImageTk
 from Menu.main import ir_main
 from registro_usuarios import RegistroUsuario  # Importa la clase RegistroUsuario
 
-
 class Login:
     def __init__(self, root):
         self.root = root
