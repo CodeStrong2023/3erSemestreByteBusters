@@ -1,5 +1,4 @@
-import LoginIntegrador.Menu.main
-
+import Menu.main as Menu
 
 def ir_cotizacion():
     global tamanio, m2, costo, cuotas
@@ -213,7 +212,7 @@ Seleccione el tamaño de la construcción:
                     print("Elige una opción válida.")
 
             elif tamanio == 4:
-                LoginIntegrador.Menu.main.ir_main()
+               Menu.main.ir_main()
             else:
                 print("Elige una opción válida.")
 
@@ -272,7 +271,7 @@ Seleccione el tamaño de la construcción:
                 if fin == 1:
                     break
                 elif fin == 2:
-                    LoginIntegrador.Menu.main.ir_main()
+                    Menu.main.ir_main()
                 else:
                     print("Elige una opción válida.")
 

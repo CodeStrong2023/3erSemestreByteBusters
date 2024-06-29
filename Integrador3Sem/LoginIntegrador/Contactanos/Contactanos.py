@@ -40,7 +40,3 @@ def contactanos():
         print("Esperamos que te comuniques pronto")
 
     print("********************************************************************************************")
-
-
-# Llamar a la función
-contactanos()
