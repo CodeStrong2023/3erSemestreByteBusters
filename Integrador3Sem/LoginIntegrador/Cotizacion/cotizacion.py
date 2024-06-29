@@ -1,5 +1,4 @@
-import Menu.main
-
+import Menu.main as Menu
 
 def ir_cotizacion():
     global tamanio, m2, costo, cuotas
