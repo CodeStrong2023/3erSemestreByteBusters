@@ -74,7 +74,7 @@ class MenuPrincipal:
 
     def opcion_cotizacion(self):
         messagebox.showinfo("Cotización", "Elegiste la opción Cotización")
-        # Cotizacion.ir_cotizacion()
+        Cotizacion.ir_cotizacion()
 
     def opcion_tipologia(self):
         messagebox.showinfo("Tipología", "Elegiste la opción Tipología")
