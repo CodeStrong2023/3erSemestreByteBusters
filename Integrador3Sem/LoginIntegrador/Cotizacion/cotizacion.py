@@ -211,72 +211,11 @@ Seleccione el tamaño de la construcción:
                 else:
                     print("Elige una opción válida.")
 
-            elif tamanio == 4:
-               Menu.main.ir_main()
+
+            elif tamanio == 4:  # VOLVER AL MENÚ
+                Menu.main.ir_main()
+
             else:
                 print("Elige una opción válida.")
-
-            print(f'El costo es: $ {costo}')
-
-            # OPCIÓN DE ENTREGAR DINERO POR ADELANTADO
-            while True:
-                opcionAdelanto = int(input("""
-                -- Digite una opción de menú: --
- (1) SI ingresar adelanto\n (2) NO ingresar adelanto\n (3) Volver a Cotización\n """))
-                if opcionAdelanto == 1:
-                    adelanto = float(input("¿Cuanto dinero desea ingresar? <- "))
-                    break
-                elif opcionAdelanto == 2:
-                    adelanto = 0
-                    break
-                elif opcionAdelanto == 3:
-                    ir_cotizacion()
-                else:
-                    print("Elige una opción válida.")
-
-            restoApagar = costo - adelanto
-            print(f'$ {restoApagar}')
-
-            while True:  # SELECCIÓN DE CUOTAS A PAGAR
-                tiempoPago = int(input("""
-                --¿En cuantas cuotas desea pagar?: --
- (1) 12 cuotas (0% interes)\n (2) 24 cuotas (interes: 50%)\n (3) 36 cuotas (interes: 75%)\n (4)Volver a Cotización\n """))
-                if tiempoPago == 1:
-                    pagoFinal = restoApagar
-                    cuotas = pagoFinal / 12
-                    break
-                elif tiempoPago == 2:
-                    pagoFinal = (restoApagar * 150) / 100
-                    cuotas = pagoFinal / 24
-                    break
-                elif tiempoPago == 3:
-                    pagoFinal = (restoApagar * 175) / 100
-                    cuotas = pagoFinal / 36
-                    break
-                elif tiempoPago == 4:
-                    ir_cotizacion()
-                else:
-                    print("Elige una opción válida.")
-
-                    #PRINT PARA VER LAS OPCIONES ELEGIDAS
-            print(f"""      
-                --ELECCIONES REALIZADAS:
- # TAMAÑO DE CONSTRUCCIÓN: {tamanioElegido}\n # DIMENSIÓN EN m2: {m2Elegido}\n # LINEA DE CONSTRUCCIÓN: {lineaElegida}\n # IMPORTE BRUTO: ${costo}
- # ADELANTO ENTREGADO: $ {adelanto}\n # COSTO TOTAL FINAL: ${pagoFinal}, EN CUOTAS DE: ${cuotas} MENSUALES""")
-
-            while True:  #CICLO PARA CONTINUAR O SALIR DE COTIZACIONES
-                fin = int(input("""
-                __ ¿Desea cotizar nuevamente?: __
- (1) Continuar\n (2) Salir a Menú principal\n """))
-                if fin == 1:
-                    break
-                elif fin == 2:
-                    Menu.main.ir_main()
-                else:
-                    print("Elige una opción válida.")
-
-        except ValueError:  #Excepcion de valor
-            print("Error: Debes ingresar un número válido.")
-
-        except Exception as e:  #Excepcion general
-            print(f"Ocurrió un error inesperado: {e}")
+        except ValueError:
+            print("Por favor, ingresa un número válido.")

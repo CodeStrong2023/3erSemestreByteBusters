@@ -89,7 +89,7 @@ class Login:
 
     def ir_a_menu(self):
         menu_root = tk.Tk()
-        menu_app = Menup.MenuPrincipal(menu_root)
+        menu_app = Menup.MenuPrincipal(menu_root, self.root)
         menu_root.mainloop()
 
     def limpiar_campos(self):

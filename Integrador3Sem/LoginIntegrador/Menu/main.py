@@ -5,10 +5,13 @@ import os
 import Cotizacion.cotizacion as Cotizacion
 import Contactanos.Contactanos as Contactanos
 import Tipologia.tipologia as Tipologia
+import inicio2.texto_inicio as Inicio
+import Login.login_gui as Login
 
 class MenuPrincipal:
-    def __init__(self, master):
+    def __init__(self, master, login_window):
         self.master = master
+        self.login_window = login_window  # Guardar la referencia de la ventana de login
         master.title("Constructora BYTEBUSTERS | Menú")
 
         frame_principal = tk.Frame(master)
@@ -59,11 +62,13 @@ class MenuPrincipal:
             return None
 
     def ejecutar_y_cerrar(self, comando):
-        self.master.destroy()  # Cerrar la ventana principal
         comando()  # Ejecutar la función correspondiente
+        self.master.destroy()  # Cerrar la ventana principal después de ejecutar el comando
 
     def opcion_inicio(self):
         messagebox.showinfo("Inicio", "Elegiste la opción Inicio")
+        appInicio = Inicio.llamar_inicio()
+        appInicio.start()
 
     def opcion_nosotros(self):
         messagebox.showinfo("Nosotros", "Elegiste la opción Nosotros")
@@ -84,9 +89,13 @@ class MenuPrincipal:
         appContactanos.start()
 
     def opcion_salir(self):
-        self.master.destroy()
+        self.master.destroy()  # Cerrar la ventana del menú principal
+        self.login_window.deiconify()  # Mostrar la ventana de login
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = MenuPrincipal(root)
+    login_window = tk.Toplevel(root)
+    login_app = Login.Login(login_window)
+    login_window.withdraw()  # Ocultar la ventana de login inicialmente
+    app = MenuPrincipal(root, login_window)
     root.mainloop()
