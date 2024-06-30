@@ -1,8 +1,9 @@
 import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
-import Menu.main as Menup
-from Login.registro_usuarios import RegistroUsuario  # Importa la clase RegistroUsuario
+import LoginIntegrador.Menu.main as menup
+from LoginIntegrador.Login.registro_usuarios import RegistroUsuario  # Importa la clase RegistroUsuario
+
 
 class Login:
     def __init__(self, root):
@@ -14,7 +15,7 @@ class Login:
         self.frame.pack(fill='both', expand=True)
 
         # Carga y coloca la imagen
-        self.cargar_imagen("Image/bytebusters_constructora.png")
+        self.cargar_imagen("bytebusters_constructora.png")
 
         # Frame para el formulario
         self.form_frame = tk.Frame(self.frame)
@@ -59,6 +60,7 @@ class Login:
             self.imagen_tk = ImageTk.PhotoImage(imagen)
             self.label_imagen = tk.Label(self.frame, image=self.imagen_tk)
             self.label_imagen.grid(row=0, column=0, padx=10, pady=10)
+            self.label_imagen.image = self.imagen_tk  # Mantener una referencia
         except Exception as e:
             print(f"Error al cargar la imagen: {e}")
 
@@ -79,22 +81,18 @@ class Login:
 
         if usuario and contraseña:
             valido = True  # ------------BORRAR LÍNEA PARA COMPROBACIÓN CORRECTA, AHORA VA A ENTRAR SIEMPRE--------------------
-            #valido, mensaje = validar_ingresos(usuario, contraseña) #--------------------DESCOMENTAR---------------
-            #self.error_label.config(text=mensaje, fg="green" if valido else "red") #--------------------DESCOMENTAR-------------------
+            # valido, mensaje = validar_ingresos(usuario, contraseña) #--------------------DESCOMENTAR---------------
+            # self.error_label.config(text=mensaje, fg="green" if valido else "red") #--------------------DESCOMENTAR-------------------
             if valido:
                 self.root.withdraw()
-                self.ir_a_menu()
+                menup.llamar_menu_principal()
         else:
             self.error_label.config(text="Por favor, llene todos los campos.")
-
-    def ir_a_menu(self):
-        menu_root = tk.Tk()
-        menu_app = Menup.MenuPrincipal(menu_root)
-        menu_root.mainloop()
 
     def limpiar_campos(self):
         for entry in self.entries.values():
             entry.delete(0, 'end')
+
 
 if __name__ == "__main__":
     root = tk.Tk()

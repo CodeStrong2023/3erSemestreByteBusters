@@ -2,9 +2,11 @@ import tkinter as tk
 from tkinter import messagebox
 from PIL import Image, ImageTk
 import os
-import Cotizacion.cotizacion as Cotizacion
-import Contactanos.Contactanos as Contactanos
-import Tipologia.tipologia as Tipologia
+import LoginIntegrador.Cotizacion.cotizacionV as Cotizacion
+import LoginIntegrador.Contactanos.Contactanos as Contactanos
+import LoginIntegrador.inicio2.texto_inicio as inicio
+import LoginIntegrador.sobre_nosotros.sobre_nosotros__ as nosotros
+# import LoginIntegrador.Tipologia.tipologia as Tipologia
 
 class MenuPrincipal:
     def __init__(self, master):
@@ -23,10 +25,10 @@ class MenuPrincipal:
         imagen_ancho = 250
         imagen_alto = 200
 
-        self.photo = self.cargar_imagen(image_path, imagen_ancho, imagen_alto)
-        if self.photo:
-            image_label = tk.Label(frame_imagen, image=self.photo)
-            image_label.pack(padx=10, pady=10)
+        #self.photo = self.cargar_imagen(image_path, imagen_ancho, imagen_alto)
+        #if self.photo:
+        #    image_label = tk.Label(frame_imagen,image=self.photo)
+        #    image_label.pack(padx=10, pady=10)
 
         # Frame para los botones
         frame_botones = tk.Frame(frame_principal)
@@ -64,19 +66,20 @@ class MenuPrincipal:
 
     def opcion_inicio(self):
         messagebox.showinfo("Inicio", "Elegiste la opción Inicio")
+        inicio.llamar_inicio()
 
     def opcion_nosotros(self):
         messagebox.showinfo("Nosotros", "Elegiste la opción Nosotros")
+        nosotros.llamar_Nosotros()
 
     def opcion_cotizacion(self):
         messagebox.showinfo("Cotización", "Elegiste la opción Cotización")
-        appCotizacion = Cotizacion.ir_cotizacion()
-        appCotizacion.start()
+        Cotizacion.ir_cotizacion()
 
     def opcion_tipologia(self):
         messagebox.showinfo("Tipología", "Elegiste la opción Tipología")
-        appTipologia = Tipologia.Tipologia()
-        appTipologia.start()
+        # appTipologia = Tipologia.Tipologia()
+        # appTipologia.start()
 
     def opcion_contactanos(self):
         messagebox.showinfo("Contáctanos", "Elegiste la opción Contáctanos")
@@ -86,7 +89,11 @@ class MenuPrincipal:
     def opcion_salir(self):
         self.master.destroy()
 
-if __name__ == "__main__":
+def llamar_menu_principal():
     root = tk.Tk()
     app = MenuPrincipal(root)
     root.mainloop()
+
+
+if __name__ == "__main__":
+    llamar_menu_principal()
