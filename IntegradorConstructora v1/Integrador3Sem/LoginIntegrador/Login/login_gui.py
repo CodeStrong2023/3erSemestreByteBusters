@@ -45,13 +45,21 @@ class Login:
         self.error_label = tk.Label(self.form_frame, text="", fg="red")
         self.error_label.grid(row=2 * len(campos) + 4, column=0, pady=10)
 
+        # Frame para los botones
+        self.button_frame = tk.Frame(self.form_frame)
+        self.button_frame.grid(row=2 * len(campos) + 5, column=0, pady=10)
+
         # Botón CONFIRMAR
-        button = tk.Button(self.form_frame, text="CONFIRMAR", command=self.validar_campos)
-        button.grid(row=2 * len(campos) + 2, column=0, pady=10)
+        button = tk.Button(self.button_frame, text="CONFIRMAR", command=self.validar_campos)
+        button.grid(row=0, column=0, padx=5)
 
         # Botón REGISTRARSE
-        button_registrar = tk.Button(self.form_frame, text="REGISTRARSE", command=self.ir_a_registrar)
-        button_registrar.grid(row=2 * len(campos) + 3, column=0, pady=10)
+        button_registrar = tk.Button(self.button_frame, text="REGISTRARSE", command=self.ir_a_registrar)
+        button_registrar.grid(row=0, column=1, padx=5)
+
+        # Botón CANCELAR
+        button_cancelar = tk.Button(self.button_frame, text="CANCELAR", command=self.root.quit)
+        button_cancelar.grid(row=0, column=2, padx=5)
 
     def cargar_imagen(self, ruta_imagen):
         try:
