@@ -6,7 +6,7 @@ import LoginIntegrador.Cotizacion.cotizacionV as Cotizacion
 import LoginIntegrador.Contactanos.Contactanos as Contactanos
 import LoginIntegrador.inicio2.texto_inicio as inicio
 import LoginIntegrador.sobre_nosotros.sobre_nosotros__ as nosotros
-# import LoginIntegrador.Tipologia.tipologia as Tipologia
+import LoginIntegrador.Tipologia.tipologia as Tipologia
 
 class MenuPrincipal:
     def __init__(self, master):
@@ -78,8 +78,8 @@ class MenuPrincipal:
 
     def opcion_tipologia(self):
         messagebox.showinfo("Tipología", "Elegiste la opción Tipología")
-        # appTipologia = Tipologia.Tipologia()
-        # appTipologia.start()
+        appTipologia = Tipologia.Tipologia()
+        appTipologia.start()
 
     def opcion_contactanos(self):
         messagebox.showinfo("Contáctanos", "Elegiste la opción Contáctanos")

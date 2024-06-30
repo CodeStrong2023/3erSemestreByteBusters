@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa49972e-d6a1-48ae-9553-b02e4406a9ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Integrador3Sem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Integrador3Sem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginIntegrador/Cotizacion/cotizacionV.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoginIntegrador/Cotizacion/cotizacionV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginIntegrador/Login/login_conexion.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoginIntegrador/Login/login_conexion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integrador3Sem/.idea/Integrador3Sem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integrador3Sem/.idea/Integrador3Sem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integrador3Sem/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integrador3Sem/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integrador3Sem/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -42,8 +40,8 @@
     "Python.login_gui.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "4732df21",
-    "last_opened_file_path": "D:/Tecnicatura UTN/3erSemestreByteBusters/Integrador3Sem/LoginIntegrador/Login",
+    "git-widget-placeholder": "hp",
+    "last_opened_file_path": "D:/Tecnicatura UTN/3erSemestreByteBusters/IntegradorConstructora v1/Integrador3Sem",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
