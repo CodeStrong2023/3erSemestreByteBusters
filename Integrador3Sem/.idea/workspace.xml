@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa49972e-d6a1-48ae-9553-b02e4406a9ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LoginIntegrador/Cotizacion/cotizacionV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginIntegrador/Cotizacion/cotizacion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginIntegrador/Login/login_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoginIntegrador/Login/login_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginIntegrador/Menu/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoginIntegrador/Menu/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginIntegrador/Cotizacion/cotizacionV.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoginIntegrador/Cotizacion/cotizacionV.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

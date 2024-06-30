@@ -1,5 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
+
+import LoginIntegrador.Menu.main
 import LoginIntegrador.Menu.main as menup
 
 
@@ -158,7 +160,7 @@ Seleccione el tamaño de la construcción:
                     reiniciar()
                     return
                 elif siguiente_paso == 2:
-                    #
+                    LoginIntegrador.Menu.main.llamar_menu_principal()
                     return
 
             step += 1
