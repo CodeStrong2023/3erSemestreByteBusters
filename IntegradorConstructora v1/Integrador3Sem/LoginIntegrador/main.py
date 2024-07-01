@@ -88,9 +88,8 @@ class Login:
         contraseña = self.entries['Contraseña'].get()
 
         if usuario and contraseña:
-            #valido = True  # ------------BORRAR LÍNEA PARA COMPROBACIÓN CORRECTA, AHORA VA A ENTRAR SIEMPRE--------------------
             valido, mensaje = validar_ingresos(usuario, contraseña) #--------------------DESCOMENTAR---------------
-            elf.error_label.config(text=mensaje, fg="green" if valido else "red") #--------------------DESCOMENTAR-------------------
+            self.error_label.config(text=mensaje, fg="green" if valido else "red") #--------------------DESCOMENTAR-------------------
             if valido:
                 self.root.destroy()
                 menup.llamar_menu_principal()
