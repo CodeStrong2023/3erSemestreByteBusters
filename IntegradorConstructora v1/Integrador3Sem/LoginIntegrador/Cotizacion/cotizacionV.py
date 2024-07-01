@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
-import LoginIntegrador.Menu.main as menup
+import LoginIntegrador.Menu.menu_principal as menup
 
 
 

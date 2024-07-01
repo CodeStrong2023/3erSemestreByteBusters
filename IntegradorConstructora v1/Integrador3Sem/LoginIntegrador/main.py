@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
-import LoginIntegrador.Menu.main as menup
+import LoginIntegrador.Menu.menu_principal as menup
 from LoginIntegrador.Login.registro_usuarios import RegistroUsuario  # Importa la clase RegistroUsuario
 
 
@@ -15,7 +15,7 @@ class Login:
         self.frame.pack(fill='both', expand=True)
 
         # Carga y coloca la imagen
-        self.cargar_imagen("bytebusters_constructora.png")
+        self.cargar_imagen("Image/bytebusters_constructora.png")
 
         # Frame para el formulario
         self.form_frame = tk.Frame(self.frame)
