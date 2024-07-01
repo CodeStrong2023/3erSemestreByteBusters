@@ -1,5 +1,5 @@
 import bcrypt
-from LoginIntegrador.login_conexion import obtener_contraseña
+from LoginIntegrador.Login.login_conexion import obtener_contraseña
 
 def validar_ingresos(usuario, contraseña):
     try:

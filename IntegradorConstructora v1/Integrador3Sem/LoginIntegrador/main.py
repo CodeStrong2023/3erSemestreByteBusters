@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
 import LoginIntegrador.Menu.menu_principal as menup
+from LoginIntegrador.Login.login_comprobacion import validar_ingresos
 from LoginIntegrador.Login.registro_usuarios import RegistroUsuario  # Importa la clase RegistroUsuario
 
 
