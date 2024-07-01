@@ -1,12 +1,12 @@
 import tkinter as tk
 from tkinter import ttk
-
+import LoginIntegrador.Menu.menu_principal as menup
 
 def sobreNosotros():
     # Crear la ventana principal
     root = tk.Tk()
     root.title("Constructora BYTEBUSTERS | Sobre Nosotros")
-    root.geometry("860x300+10+10") #Tamaño y posición de la ventana
+    root.geometry("860x400+10+10") #Tamaño y posición de la ventana
 
 
     # Crear un estilo personalizado
@@ -51,6 +51,17 @@ def sobreNosotros():
     # ultima línea separadora
     separator1 = ttk.Separator(frame, orient='horizontal')
     separator1.grid(row=8, column=0, sticky=(tk.W, tk.E), pady=(5, 5))
+
+    def ir_a_menu_principal():
+        root.destroy()
+        menup.llamar_menu_principal()
+          # Cerrar la ventana de inicio después de abrir el menú principal
+
+
+    # Botón para ir al menú principal
+    boton_menu = ttk.Button(frame, text="Ir al Menú Principal", command=ir_a_menu_principal)
+    boton_menu.grid(row=9, column=0, pady=(10, 20))
+
 
     # Ejecutar la aplicación
     root.mainloop()

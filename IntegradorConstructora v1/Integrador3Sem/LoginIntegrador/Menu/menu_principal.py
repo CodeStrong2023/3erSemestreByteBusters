@@ -89,6 +89,8 @@ class MenuPrincipal:
     def opcion_salir(self):
         self.master.destroy()
 
+        
+
 def llamar_menu_principal():
     root = tk.Tk()
     app = MenuPrincipal(root)

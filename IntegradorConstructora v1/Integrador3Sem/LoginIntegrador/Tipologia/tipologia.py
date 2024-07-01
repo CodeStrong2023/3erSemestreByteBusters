@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox
 
+import LoginIntegrador.Menu.menu_principal as menup
+
 class Tipologia:
     def __init__(self):
         self.root = tk.Tk()
@@ -37,7 +39,9 @@ class Tipologia:
         elif opcion.startswith("3"):
             self.opcion = 3
             self.big_home()
-        #elif opcion.startswith("4"):
+        elif opcion.startswith("4"):
+            self.root.destroy()
+            menup.llamar_menu_principal()
 
 
     def small_home(self):

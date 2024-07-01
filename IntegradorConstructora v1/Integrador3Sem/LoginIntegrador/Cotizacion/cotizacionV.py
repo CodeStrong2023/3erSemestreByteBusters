@@ -160,7 +160,9 @@ Seleccione el tamaño de la construcción:
                     reiniciar()
                     return
                 elif siguiente_paso == 2:
+                    root.destroy()
                     menup.llamar_menu_principal()
+
                     return
 
             step += 1
@@ -240,6 +242,16 @@ Seleccione el tamaño de la construcción:
 
     btn_back = tk.Button(frame, text="Regresar", command=back_step)
     btn_back.pack(side=tk.LEFT, padx=5)
+
+    def ir_a_menu_principal():
+        root.destroy()
+        menup.llamar_menu_principal()
+          # Cerrar la ventana de inicio después de abrir el menú principal
+
+
+    # Botón para ir al menú principal
+    boton_menu = tk.Button(frame, text="Ir al Menú Principal", command=ir_a_menu_principal)
+    boton_menu.pack(side=tk.LEFT, padx=5)
 
     adelanto_input = tk.Entry(root)
     adelanto_button = tk.Button(root, text="Ingresar Adelanto", command=enter_adelanto)

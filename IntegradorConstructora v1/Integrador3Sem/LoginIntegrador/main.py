@@ -88,11 +88,11 @@ class Login:
         contraseña = self.entries['Contraseña'].get()
 
         if usuario and contraseña:
-            valido = True  # ------------BORRAR LÍNEA PARA COMPROBACIÓN CORRECTA, AHORA VA A ENTRAR SIEMPRE--------------------
-            # valido, mensaje = validar_ingresos(usuario, contraseña) #--------------------DESCOMENTAR---------------
-            # self.error_label.config(text=mensaje, fg="green" if valido else "red") #--------------------DESCOMENTAR-------------------
+            #valido = True  # ------------BORRAR LÍNEA PARA COMPROBACIÓN CORRECTA, AHORA VA A ENTRAR SIEMPRE--------------------
+            valido, mensaje = validar_ingresos(usuario, contraseña) #--------------------DESCOMENTAR---------------
+            elf.error_label.config(text=mensaje, fg="green" if valido else "red") #--------------------DESCOMENTAR-------------------
             if valido:
-                self.root.withdraw()
+                self.root.destroy()
                 menup.llamar_menu_principal()
         else:
             self.error_label.config(text="Por favor, llene todos los campos.")
@@ -101,6 +101,8 @@ class Login:
         for entry in self.entries.values():
             entry.delete(0, 'end')
 
+    def llamar_login(self):
+        self.root.mainloop()
 
 if __name__ == "__main__":
     root = tk.Tk()
