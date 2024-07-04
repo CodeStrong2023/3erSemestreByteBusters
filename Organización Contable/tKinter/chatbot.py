@@ -66,6 +66,10 @@ Seleccione lo que desea consultar:\n
 
  Presione 0 para Volver""")
             elif tema == 5:
+                text_box.insert(tk.END, """
+            ¡¡¡ Gracias por visitarnos, y no dudes en dejarnos cualquier consulta, nuestro equipo pronto se estará contactando contigo !!!\n
+
+ Presione 0 para Volver""")
                 save.ir_chatbot(root)  # Llama a la función ir_chatbot desde guardar_comunicacion.py
                 return
 
@@ -111,6 +115,7 @@ Costa Este      Charlotte, GA: 3er Lugar (13/07)
 
 Presione 0 para Volver""")
 
+
         text_box.config(state=tk.DISABLED)
         entry.delete(0, tk.END)
 
@@ -141,6 +146,11 @@ Presione 0 para Volver""")
                     historia = int(entry.get())
                     if historia not in [0]:
                         raise ValueError
+                elif tema == 5:
+                    txt = int(entry.get())
+                    if txt not in [0]:
+                        raise ValueError
+
             elif step == 3:
                 if lugar == 1:
                     enter = int(entry.get())
@@ -158,8 +168,6 @@ Presione 0 para Volver""")
                     enter = int(entry.get())
                     if enter not in [0]:
                         raise ValueError
-            elif step == 4:
-                "ingresa codigo guardar_comunicacion aqui"
 
             step += 1
             show_step()

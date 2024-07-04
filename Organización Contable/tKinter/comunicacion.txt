@@ -13,3 +13,12 @@ Email: Elher@mail
 Teléfono: 25545456464
 Mensaje: Está hecho, la interfaz es similar, los botones funcionan y se guardan en un txt.
 
+
+Nombre: andres
+Email: a@gmail.com
+Teléfono: 4235345
+Mensaje: prueba 0.1
+
+
+
+
