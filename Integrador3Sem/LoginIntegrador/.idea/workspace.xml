@@ -5,47 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e415eba9-f855-40b0-a6da-01a034d54105" name="Changes" comment="agrego partes del menu">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Integrador3Sem.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LoginIntegrador.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contactanos/Contactanos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contactanos/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cotizacion/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cotizacion/cotizacion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/ByteBusters-removebg-preview.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/bytebusters_constructora.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/login_comprobacion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/login_conexion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/login_gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/registro_usuarios.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Menu/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Menu/bytebusters_constructora.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Menu/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tipologia/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tipologia/tipologia.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inicio2/texto_inicio.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../IntegradorConstructora v1/Integrador3Sem/LoginIntegrador/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../IntegradorConstructora v1/.idea/IntegradorConstructora v1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../IntegradorConstructora v1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../IntegradorConstructora v1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../IntegradorConstructora v1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../IntegradorConstructora v1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../IntegradorConstructora v1/Integrador3Sem/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IntegradorConstructora v1/Integrador3Sem/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../IntegradorConstructora v1/Integrador3Sem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IntegradorConstructora v1/Integrador3Sem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../IntegradorConstructora v1/Integrador3Sem/LoginIntegrador/Login/login_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../IntegradorConstructora v1/Integrador3Sem/LoginIntegrador/Login/login_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../IntegradorConstructora v1/Integrador3Sem/LoginIntegrador/Menu/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../IntegradorConstructora v1/Integrador3Sem/LoginIntegrador/Menu/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +40,8 @@
     "Python.texto_inicio.executor": "Run",
     "Python.tipologia.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging Nicol3",
-    "last_opened_file_path": "C:/Users/naime_/2año/3erSemestreByteBusters/Integrador3Sem/LoginIntegrador/Menu",
+    "git-widget-placeholder": "Nicol3",
+    "last_opened_file_path": "C:/Users/naime_/2año/3erSemestreByteBusters/Organización Contable/tKinter",
     "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
