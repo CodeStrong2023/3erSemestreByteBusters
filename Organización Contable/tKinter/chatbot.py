@@ -1,6 +1,7 @@
 from tkinter import messagebox
 import tkinter as tk
 from customtkinter import CTkButton
+import guardar_comunicacion as save
 
 # Colores
 c_azulClaro = "#86A9FD"
@@ -16,7 +17,6 @@ tema = 0
 grupos = 0
 fechas = 0
 lugar = 0
-
 
 def ir_chatbot(ventana_anterior):
     global step, tema, grupos, fechas, lugar, cuotas
@@ -66,10 +66,8 @@ Seleccione lo que desea consultar:\n
 
  Presione 0 para Volver""")
             elif tema == 5:
-                text_box.insert(tk.END, """
-            Ingrese su Nombre completo, correo y número de teléfono\n
-
- Presione 0 para Volver""")
+                save.ir_chatbot(root)  # Llama a la función ir_chatbot desde guardar_comunicacion.py
+                return
 
         elif step == 3:
             if lugar == 1:
@@ -124,7 +122,7 @@ Presione 0 para Volver""")
                 return
             if step == 1:
                 tema = int(entry.get())
-                if tema not in [1, 2, 3, 4]:
+                if tema not in [1, 2, 3, 4, 5]:
                     raise ValueError
             elif step == 2:
                 if tema == 1:
@@ -160,6 +158,8 @@ Presione 0 para Volver""")
                     enter = int(entry.get())
                     if enter not in [0]:
                         raise ValueError
+            elif step == 4:
+                "ingresa codigo guardar_comunicacion aqui"
 
             step += 1
             show_step()
@@ -226,4 +226,3 @@ Presione 0 para Volver""")
 
     show_step()
     root.mainloop()
-
