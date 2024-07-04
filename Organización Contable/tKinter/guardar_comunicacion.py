@@ -70,7 +70,7 @@ def ir_chatbot(ventana_anterior):
     btn_guardar.place(relx=0.3, rely=0.8, relwidth=0.12, relheight=0.05)
 
     boton_menu = CTkButton(root, font=("sans serif", 13), border_color=c_negro, fg_color=c_azulOscuro,
-                           hover_color=c_morado, corner_radius=12, border_width=2, text="Ir al Menú Principal",
+                           hover_color=c_morado, corner_radius=12, border_width=2, text="Volver",
                            height=40, command=volver_al_menu)
     boton_menu.pack()
     boton_menu.place(relx=0.58, rely=0.8, relwidth=0.12, relheight=0.05)

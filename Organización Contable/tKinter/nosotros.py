@@ -1,7 +1,6 @@
 import tkinter as tk
 from customtkinter import CTkButton
 from PIL import Image, ImageTk
-import menu
 
 c_azulClaro = "#86A9FD"
 c_negro = "#010101"
@@ -11,15 +10,15 @@ c_azul = "#33DDFF"
 c_azulOscuro = "#2980B9"
 c_blanco = "#FFFFFF"
 
-def ir_nosotros():
+def ir_nosotros(ventana_anterior):
 
     def volver_al_menu():
         root.destroy()
-        menu.start_menu()
+        ventana_anterior.deiconify()
 
-
-    root = tk.Tk()
-    root.title("Cotización de Construcción")
+    root = tk.Toplevel()  # Usar Toplevel en lugar de Tk para crear una nueva ventana secundaria
+    root.title("Nosotros")
+    ventana_anterior.withdraw()
 
     ancho_root = root.winfo_screenwidth()
     altura_root = root.winfo_screenheight()
@@ -30,8 +29,13 @@ def ir_nosotros():
     root.title("Byte Busters Travel")
 
     # Cargar y mostrar imagen
-    image_path = "images/fondo.png"  # Cambia esta ruta si tu imagen está en otra ubicación
-    image = Image.open(image_path)
+    image_path = "images/fondo.png"  # Asegúrate de que esta ruta sea correcta
+    try:
+        image = Image.open(image_path)
+    except FileNotFoundError:
+        print(f"Error: No se encontró el archivo de imagen en la ruta {image_path}")
+        return
+
     image = image.resize((150, 100))  # Redimensiona la imagen si es necesario
     img = ImageTk.PhotoImage(image)
 
@@ -79,6 +83,3 @@ def ir_nosotros():
     btn0.place(relx=0.38, rely=0.85, relwidth=0.12, relheight=0.05)
 
     root.mainloop()
-
-if __name__ == "__main__":
-    ir_nosotros()
