@@ -17,7 +17,6 @@ grupos = 0
 fechas = 0
 lugar = 0
 
-
 def ir_chatbot(ventana_anterior):
     global step, tema, grupos, fechas, lugar, cuotas
 
