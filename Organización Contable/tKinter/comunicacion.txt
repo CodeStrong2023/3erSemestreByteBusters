@@ -1,0 +1,15 @@
+Nombre: Hernan
+Email: hernan@mail
+Teléfono: 343243
+Mensaje: Hola, me encata su revista, sigan así
+
+Nombre: Pablo
+Email: pablov@mail
+TelÃ©fono: 354524254
+Mensaje: Genial, la revista
+
+Nombre: Elher753
+Email: Elher@mail
+TelÃ©fono: 25545456464
+Mensaje: EstÃ¡ hecho, la interfaz es similar, los botones funcionan y se guardan en un txt.
+
